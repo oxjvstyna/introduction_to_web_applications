@@ -1,0 +1,55 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #007bff; 
+  color: white;
+  padding: 10px 20px;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #ffdd57; 
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+
+.navbar-links a {
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+
+.navbar-links a.home {
+  color: #ff6f61; 
+}
+
+.navbar-links a.cart {
+  color: #36d399; 
+}
+
+.navbar-links a.orders {
+  color: #ffd700; 
+}
+
+.navbar-links a.profile {
+  color: #8a2be2; 
+}
+
+.navbar-links a:hover {
+  text-decoration: underline;
+  filter: brightness(1.2); 
+}

@@ -1,0 +1,149 @@
+
+div {
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
+  }
+  
+
+  h1 {
+    text-align: center;
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+ 
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+ 
+  li {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  li img {
+    max-width: 150px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+    color: #444;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: #666;
+    margin: 5px 0;
+  }
+  
+
+  button {
+    padding: 8px 15px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #d32f2f;
+  }
+  
+  
+  div > div {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+
+  h3 {
+    font-size: 1.25rem;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  button[type="button"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s;
+  }
+  
+  button[type="button"]:hover {
+    background-color: #45a049;
+  }
+  
+  p {
+    font-size: 1rem;
+    color: green;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+
+  p.empty {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #888;
+    margin-top: 30px;
+  }
+  
+ 
+  .navbar {
+    background-color: #333; 
+    color: white; 
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    position: sticky; 
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+  }
+  
+
+  .navbar a {
+    color: #f0c040; 
+    text-decoration: none; 
+    margin: 0 15px; 
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  .navbar a:hover {
+    color: #ffffff; 
+  }
+  
+
+  .navbar .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f0c040;
+  }
+  
+
+  .navbar .menu {
+    display: flex;
+    align-items: center;
+  }
+  
